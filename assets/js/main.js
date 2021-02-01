@@ -7,15 +7,15 @@
 !(function($) {
   "use strict";
 
-  // fetch("component/about.html")
-  // .then(response => {
-  //   return response.text()
-  // })
-  // .then(data => {
-  //   document.querySelector("about").innerHTML = data;
-  // });
+  //inner child component html file
   $("#about").load("component/about.html");
+  $("#facts").load("component/facts.html");
+  $("#skills").load("component/skills.html");
+  $("#resume").load("component/resume.html");
+  $("#services").load("component/services.html");
+  $("#contact").load("component/contact.html");
 
+  
   // Hero typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
