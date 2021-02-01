@@ -1,1 +1,1 @@
-# arata98.guthub.io
+# arata98.github.io
