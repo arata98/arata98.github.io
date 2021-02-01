@@ -7,6 +7,15 @@
 !(function($) {
   "use strict";
 
+  fetch("component/about.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("about").innerHTML = data;
+  });
+  // $("#about").load("component/about.html");
+
   // Hero typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
