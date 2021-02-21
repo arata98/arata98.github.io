@@ -1,1 +1,1 @@
-phttps://arata98.github.io/
+page: https://arata98.github.io/
